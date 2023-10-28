@@ -1,28 +1,28 @@
-/* Estilos generales */
+
 html, body, #root {
   height: 100%;
   margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #1f6e868f; /* Fondo general de la aplicación */
+  background-color: #1f6e868f; 
 }
 
 .container {
-  background-color: #f0f0f0; /* Fondo del formulario */
+  background-color: #f0f0f0; 
   padding: 20px;
-  border: 1px solid #ddd; /* Borde del formulario */
-  border-radius: 8px; /* Bordes redondeados del formulario */
-  text-align: center; /* Alineación del contenido en el centro */
+  border: 1px solid #ddd; 
+  border-radius: 8px; 
+  text-align: center; 
 }
 
-/* Estilos para etiquetas de formulario */
+
 label {
   font-weight: 500;
   color: #333;
 }
 
-/* Estilos para campos de entrada de formulario */
+
 input[type="text"],
 input[type="email"],
 input[type="password"] {
@@ -33,7 +33,7 @@ input[type="password"] {
   border-radius: 4px;
 }
 
-/* Estilos para el botón de envío del formulario */
+
 button[type="submit"] {
   background-color: #62cfab;
   color: #fff;
@@ -47,13 +47,13 @@ button[type="submit"]:hover {
   background-color: #60f253;
 }
 
-/* Estilo para alertas con fondo amarillo */
+
 .alert-warning {
   background-color: yellow;
   color: black;
 }
 
-/* Estilo para alertas de éxito con fondo verde */
+
 .alert-success {
   background-color: green;
   color: white;
